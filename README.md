@@ -1,4 +1,3 @@
-
 #Prerequisite
 pipenv needs to be setup to run this project, [setup pipenv](https://pipenv.pypa.io/en/latest/)
 
@@ -9,9 +8,11 @@ Once pipenv is setup you need to run `pipenv shell` to start the virtual env
 To download the dataset run `python download_dataset.py`
 It should have downloaded it in the root folder and unzipped it in `dataset_out`
 
-# Query database
-
-To Query the database
+# Steps
+1. `pipenv shell`
+2. `pipenv install`
+3. `python download_dataset.py`
+4. To Query the database
 
 `python rundb.py --query_json <json_string>`
 
