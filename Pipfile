@@ -4,6 +4,9 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+dask = {extras = ["complete"], version = "*"}
+sortedcollections = "*"
+progressbar = "*"
 
 [dev-packages]
 
